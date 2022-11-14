@@ -24,8 +24,8 @@ img {
   display: block;
   max-width: 100%;
 }
-li{ list-style: none;
-
+li {
+  list-style: none;
 }
 .main-title {
   margin-top: 0;
@@ -150,12 +150,11 @@ li{ list-style: none;
   align-items: center;
   justify-content: center;
   list-style: none;
-  
 }
-.link-networks{
+.link-networks {
   display: flex;
-  color: rgba(175, 177, 184, 1) ;
-  border: 1px ;
+  color: rgba(175, 177, 184, 1);
+  border: 1px;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -163,9 +162,8 @@ li{ list-style: none;
   align-items: center;
 }
 
-
 .link-networks:hover,
-.link-networks:focus{
+.link-networks:focus {
   color: #ffffff;
   background-color: var(--accent-text-color);
 }
@@ -177,7 +175,6 @@ li{ list-style: none;
 .team-icon:focus {
   fill: currentColor;
 }
-
 
 .footer {
   padding-top: 60px;
@@ -419,7 +416,7 @@ li{ list-style: none;
   text-decoration: none;
 }
 .work-link:hover,
-.work-link:focus{
+.work-link:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
 }
@@ -427,7 +424,6 @@ li{ list-style: none;
 .footer-contacts:focus {
   color: var(--accent-text-color);
 }
-
 .footer-list-name {
   color: var(--light-color);
   font-weight: 700;
@@ -471,7 +467,6 @@ li{ list-style: none;
   gap: 30px;
 }
 
-
 .clients-link {
   display: flex;
   align-items: center;
@@ -480,12 +475,11 @@ li{ list-style: none;
   width: 170px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  color: rgba(175, 177, 184, 1) ;
+  color: rgba(175, 177, 184, 1);
 }
 
-
 .clients-icon {
-  fill: currentColor
+  fill: currentColor;
 }
 
 .clients-link:hover,
