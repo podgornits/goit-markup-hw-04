@@ -388,12 +388,14 @@ li {
   background-color: var(--bcg-button-color);
   cursor: pointer;
   border: 1px solid var(--bcg-button-color);
+  border-radius: 4px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--light-color);
   background-color: var(--accent-text-color);
-  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .work-name {
   font-weight: 700;
@@ -417,8 +419,8 @@ li {
 }
 .work-link:hover,
 .work-link:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
@@ -431,6 +433,7 @@ li {
   line-height: 1.1428;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 .footer-content {
   display: flex;
